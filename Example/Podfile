@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WLAutoScrollingView_Example' do
+  pod 'WLAutoScrollingView', :path => '../'
+
+  target 'WLAutoScrollingView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
