@@ -1,0 +1,16 @@
+PODS:
+  - WLAutoScrollingView (0.1.0)
+
+DEPENDENCIES:
+  - WLAutoScrollingView (from `../`)
+
+EXTERNAL SOURCES:
+  WLAutoScrollingView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WLAutoScrollingView: a6fd2cc65d6a578eea9673f92a089be73f976786
+
+PODFILE CHECKSUM: 4b20c931978b72fcb0f9b383a26489eab97d4982
+
+COCOAPODS: 1.5.0

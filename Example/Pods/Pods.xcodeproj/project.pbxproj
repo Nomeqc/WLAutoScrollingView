@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0510ACBFAD5824BB90F1282E6D950771 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		06513C119919C1317A711DE020EF3842 /* Pods-WLAutoScrollingView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1D5EE13948B4A17AB64F11BDB57DE7 /* Pods-WLAutoScrollingView_Example-dummy.m */; };
+		0C07CFE750DEEA35459ACF053C25B321 /* NSTimer+WLAutoScrollingViewSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816F43AF7CEF7A223B2ACE24F322F53 /* NSTimer+WLAutoScrollingViewSupport.m */; };
+		0FE9A861E221D582C2EC070A7FD274B7 /* Pods-WLAutoScrollingView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD055C43E5A2A2FA3627A15E440C982 /* Pods-WLAutoScrollingView_Tests-dummy.m */; };
+		3518C7D2D1EC69F105E54EDBA1870294 /* WLAutoScrollingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F904B6F399EFF8999FAB56E77298427E /* WLAutoScrollingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74AE0BFA31515B2469A1BEC7258B4DAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		805D7D463C9F9A1940113B7141B72AA4 /* WLAutoScrollingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 700FD7A8CE7E94FC64014A46AEE6EDBD /* WLAutoScrollingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		890A0158F172F1B3DD24ADB2395366A3 /* WLAutoScrollingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00643380A7BE3DB37C8CBC70B486733A /* WLAutoScrollingView-dummy.m */; };
+		929836D05A896F1E6A92B53C9BB26FA8 /* WLAutoScrollingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E796B39D741BD47C96CDA4F11178D2 /* WLAutoScrollingView.m */; };
+		A37E351C4ECBE15EF3EA2B3A7983B974 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		BD69122B368E14E082B8187CC5602FE0 /* NSTimer+WLAutoScrollingViewSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = E6F8B089180B2580A4CE33A759402C4C /* NSTimer+WLAutoScrollingViewSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E64481BB52A0D54AB43F3AEF2E7EA3BB /* Pods-WLAutoScrollingView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1752511F3743AE67622F135D8D4A20AF /* Pods-WLAutoScrollingView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2713DAC684100F870DBC6E750CFC10A /* Pods-WLAutoScrollingView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D5360187645469F01D90FD34FD76C1 /* Pods-WLAutoScrollingView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2792740D72B13BCBABA9828FB0995BD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 752753526DF8A34B61883C4232E7840C;
+			remoteInfo = WLAutoScrollingView;
+		};
+		B5373DDC8F1C41926B8A778380236247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55968E66EC64469C2EEBC7DA784108AF;
+			remoteInfo = "Pods-WLAutoScrollingView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00643380A7BE3DB37C8CBC70B486733A /* WLAutoScrollingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLAutoScrollingView-dummy.m"; sourceTree = "<group>"; };
+		07D5360187645469F01D90FD34FD76C1 /* Pods-WLAutoScrollingView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLAutoScrollingView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0A740F71D1AAC05F713EAA1D10BADE3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C20D057407DE882C6D87A75A137F072 /* Pods-WLAutoScrollingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLAutoScrollingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		138C1ACBC8E04EB91F7EDD99DBFF804B /* Pods-WLAutoScrollingView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLAutoScrollingView_Tests-resources.sh"; sourceTree = "<group>"; };
+		1752511F3743AE67622F135D8D4A20AF /* Pods-WLAutoScrollingView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLAutoScrollingView_Example-umbrella.h"; sourceTree = "<group>"; };
+		17D9A4ADBF51E729108309361FF169D0 /* Pods-WLAutoScrollingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLAutoScrollingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1816F43AF7CEF7A223B2ACE24F322F53 /* NSTimer+WLAutoScrollingViewSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+WLAutoScrollingViewSupport.m"; path = "WLAutoScrollingView/Classes/NSTimer+WLAutoScrollingViewSupport.m"; sourceTree = "<group>"; };
+		23C8501EC7D09F413BEBE9E1AA77E93D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		27BA14C5402CE2919A9E49E386AB1FC3 /* WLAutoScrollingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLAutoScrollingView.xcconfig; sourceTree = "<group>"; };
+		2EF38FC93A8723392071F75EC1958AE4 /* WLAutoScrollingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLAutoScrollingView-prefix.pch"; sourceTree = "<group>"; };
+		33262D8A34819A273F91F3934BA20656 /* Pods-WLAutoScrollingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLAutoScrollingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EA49E0A79EEE8A3084B96AA9403AED7 /* Pods-WLAutoScrollingView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WLAutoScrollingView_Tests.modulemap"; sourceTree = "<group>"; };
+		456065BC84B843603D3AAA9243C936B0 /* WLAutoScrollingView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = WLAutoScrollingView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		670486BA0D75A56BD2A2103DA0E0C259 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		700FD7A8CE7E94FC64014A46AEE6EDBD /* WLAutoScrollingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLAutoScrollingView.h; path = WLAutoScrollingView/Classes/WLAutoScrollingView.h; sourceTree = "<group>"; };
+		719338827D515C1FD27E32016901124F /* WLAutoScrollingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WLAutoScrollingView.framework; path = WLAutoScrollingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E796B39D741BD47C96CDA4F11178D2 /* WLAutoScrollingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLAutoScrollingView.m; path = WLAutoScrollingView/Classes/WLAutoScrollingView.m; sourceTree = "<group>"; };
+		75CE6CF9B651ED1CD632E5710D40D81F /* Pods-WLAutoScrollingView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLAutoScrollingView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		75ED7837F95394B675BC82947FDCDF18 /* Pods-WLAutoScrollingView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLAutoScrollingView_Example-resources.sh"; sourceTree = "<group>"; };
+		7C570D8CF14F401BF1EB05FEB70FC78B /* Pods_WLAutoScrollingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WLAutoScrollingView_Tests.framework; path = "Pods-WLAutoScrollingView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8011A836F98C85EDF0866CCCBF631C5D /* Pods_WLAutoScrollingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WLAutoScrollingView_Example.framework; path = "Pods-WLAutoScrollingView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E34110422DB313EDD17C7363A69EA96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A121AB20CF808247D6141D925D658850 /* Pods-WLAutoScrollingView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLAutoScrollingView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8858DE57DD0832040050BF7088C7960 /* Pods-WLAutoScrollingView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WLAutoScrollingView_Example.modulemap"; sourceTree = "<group>"; };
+		AD8C2AFF60AAFE0E6F92448AB4D80B00 /* Pods-WLAutoScrollingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLAutoScrollingView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BA4CB2BB38247A7D8F5A3D104381962C /* Pods-WLAutoScrollingView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLAutoScrollingView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BDCC4069DA8FEAB73C533F9B23D6BF3E /* Pods-WLAutoScrollingView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLAutoScrollingView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CA1D5EE13948B4A17AB64F11BDB57DE7 /* Pods-WLAutoScrollingView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLAutoScrollingView_Example-dummy.m"; sourceTree = "<group>"; };
+		D303802454B07A55F75B574087482CA7 /* Pods-WLAutoScrollingView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLAutoScrollingView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DAD055C43E5A2A2FA3627A15E440C982 /* Pods-WLAutoScrollingView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLAutoScrollingView_Tests-dummy.m"; sourceTree = "<group>"; };
+		E5A03F34D118CC9DFE7C2C5B0F4DF3F4 /* WLAutoScrollingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WLAutoScrollingView.modulemap; sourceTree = "<group>"; };
+		E6F8B089180B2580A4CE33A759402C4C /* NSTimer+WLAutoScrollingViewSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+WLAutoScrollingViewSupport.h"; path = "WLAutoScrollingView/Classes/NSTimer+WLAutoScrollingViewSupport.h"; sourceTree = "<group>"; };
+		F114D5EC2337819181A0ACEC53D8601F /* Pods-WLAutoScrollingView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLAutoScrollingView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3E79B49EF62ABA069B8DA20C5B89735 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F904B6F399EFF8999FAB56E77298427E /* WLAutoScrollingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLAutoScrollingView-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A790B3866AE853FEB510839498D5586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A37E351C4ECBE15EF3EA2B3A7983B974 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2143D71FE01A78EE446C4238EE56626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AE0BFA31515B2469A1BEC7258B4DAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4705281DCC89F5F37316DA2F9A1088C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0510ACBFAD5824BB90F1282E6D950771 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10B41ED24C1E05F4161CAFB6159F3AF2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4A3DA5781762ED5D1A19FA3723DB289 /* Pods-WLAutoScrollingView_Example */,
+				DF0A45AEE9D3F286AA9A169D83AFB27F /* Pods-WLAutoScrollingView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1220E781A86B3E232794D91D0978F003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8011A836F98C85EDF0866CCCBF631C5D /* Pods_WLAutoScrollingView_Example.framework */,
+				7C570D8CF14F401BF1EB05FEB70FC78B /* Pods_WLAutoScrollingView_Tests.framework */,
+				719338827D515C1FD27E32016901124F /* WLAutoScrollingView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5184CD1E3D2E2C1DCEB6ADA895BB6EB9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F3E79B49EF62ABA069B8DA20C5B89735 /* LICENSE */,
+				23C8501EC7D09F413BEBE9E1AA77E93D /* README.md */,
+				456065BC84B843603D3AAA9243C936B0 /* WLAutoScrollingView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		59DA7884CF10BCD2A3626BBB10E734CB /* WLAutoScrollingView */ = {
+			isa = PBXGroup;
+			children = (
+				E6F8B089180B2580A4CE33A759402C4C /* NSTimer+WLAutoScrollingViewSupport.h */,
+				1816F43AF7CEF7A223B2ACE24F322F53 /* NSTimer+WLAutoScrollingViewSupport.m */,
+				700FD7A8CE7E94FC64014A46AEE6EDBD /* WLAutoScrollingView.h */,
+				73E796B39D741BD47C96CDA4F11178D2 /* WLAutoScrollingView.m */,
+				5184CD1E3D2E2C1DCEB6ADA895BB6EB9 /* Pod */,
+				72437CC898682DCF072B5F857F7CB5A9 /* Support Files */,
+			);
+			name = WLAutoScrollingView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		72437CC898682DCF072B5F857F7CB5A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A740F71D1AAC05F713EAA1D10BADE3E /* Info.plist */,
+				E5A03F34D118CC9DFE7C2C5B0F4DF3F4 /* WLAutoScrollingView.modulemap */,
+				27BA14C5402CE2919A9E49E386AB1FC3 /* WLAutoScrollingView.xcconfig */,
+				00643380A7BE3DB37C8CBC70B486733A /* WLAutoScrollingView-dummy.m */,
+				2EF38FC93A8723392071F75EC1958AE4 /* WLAutoScrollingView-prefix.pch */,
+				F904B6F399EFF8999FAB56E77298427E /* WLAutoScrollingView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WLAutoScrollingView";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				96E276D7DEF6F4332E2EDFD3D37CE524 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1220E781A86B3E232794D91D0978F003 /* Products */,
+				10B41ED24C1E05F4161CAFB6159F3AF2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		96E276D7DEF6F4332E2EDFD3D37CE524 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59DA7884CF10BCD2A3626BBB10E734CB /* WLAutoScrollingView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B4A3DA5781762ED5D1A19FA3723DB289 /* Pods-WLAutoScrollingView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8E34110422DB313EDD17C7363A69EA96 /* Info.plist */,
+				A8858DE57DD0832040050BF7088C7960 /* Pods-WLAutoScrollingView_Example.modulemap */,
+				A121AB20CF808247D6141D925D658850 /* Pods-WLAutoScrollingView_Example-acknowledgements.markdown */,
+				75CE6CF9B651ED1CD632E5710D40D81F /* Pods-WLAutoScrollingView_Example-acknowledgements.plist */,
+				CA1D5EE13948B4A17AB64F11BDB57DE7 /* Pods-WLAutoScrollingView_Example-dummy.m */,
+				D303802454B07A55F75B574087482CA7 /* Pods-WLAutoScrollingView_Example-frameworks.sh */,
+				75ED7837F95394B675BC82947FDCDF18 /* Pods-WLAutoScrollingView_Example-resources.sh */,
+				1752511F3743AE67622F135D8D4A20AF /* Pods-WLAutoScrollingView_Example-umbrella.h */,
+				17D9A4ADBF51E729108309361FF169D0 /* Pods-WLAutoScrollingView_Example.debug.xcconfig */,
+				AD8C2AFF60AAFE0E6F92448AB4D80B00 /* Pods-WLAutoScrollingView_Example.release.xcconfig */,
+			);
+			name = "Pods-WLAutoScrollingView_Example";
+			path = "Target Support Files/Pods-WLAutoScrollingView_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF0A45AEE9D3F286AA9A169D83AFB27F /* Pods-WLAutoScrollingView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				670486BA0D75A56BD2A2103DA0E0C259 /* Info.plist */,
+				3EA49E0A79EEE8A3084B96AA9403AED7 /* Pods-WLAutoScrollingView_Tests.modulemap */,
+				BA4CB2BB38247A7D8F5A3D104381962C /* Pods-WLAutoScrollingView_Tests-acknowledgements.markdown */,
+				F114D5EC2337819181A0ACEC53D8601F /* Pods-WLAutoScrollingView_Tests-acknowledgements.plist */,
+				DAD055C43E5A2A2FA3627A15E440C982 /* Pods-WLAutoScrollingView_Tests-dummy.m */,
+				BDCC4069DA8FEAB73C533F9B23D6BF3E /* Pods-WLAutoScrollingView_Tests-frameworks.sh */,
+				138C1ACBC8E04EB91F7EDD99DBFF804B /* Pods-WLAutoScrollingView_Tests-resources.sh */,
+				07D5360187645469F01D90FD34FD76C1 /* Pods-WLAutoScrollingView_Tests-umbrella.h */,
+				33262D8A34819A273F91F3934BA20656 /* Pods-WLAutoScrollingView_Tests.debug.xcconfig */,
+				0C20D057407DE882C6D87A75A137F072 /* Pods-WLAutoScrollingView_Tests.release.xcconfig */,
+			);
+			name = "Pods-WLAutoScrollingView_Tests";
+			path = "Target Support Files/Pods-WLAutoScrollingView_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		721B620FF412A7BF4BC9B712A13197C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64481BB52A0D54AB43F3AEF2E7EA3BB /* Pods-WLAutoScrollingView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A72601B813EDC9842068E9DFE9018B36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD69122B368E14E082B8187CC5602FE0 /* NSTimer+WLAutoScrollingViewSupport.h in Headers */,
+				3518C7D2D1EC69F105E54EDBA1870294 /* WLAutoScrollingView-umbrella.h in Headers */,
+				805D7D463C9F9A1940113B7141B72AA4 /* WLAutoScrollingView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD3EB764641E4AE3328B5805F13018B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2713DAC684100F870DBC6E750CFC10A /* Pods-WLAutoScrollingView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55968E66EC64469C2EEBC7DA784108AF /* Pods-WLAutoScrollingView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C158EF5FBE85489300A590CC1EEEC60 /* Build configuration list for PBXNativeTarget "Pods-WLAutoScrollingView_Example" */;
+			buildPhases = (
+				7F662A957356ACB79E46144BB12A2ABD /* Sources */,
+				B2143D71FE01A78EE446C4238EE56626 /* Frameworks */,
+				721B620FF412A7BF4BC9B712A13197C3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3A406F416F2ACFD34A28445BCBAD7C2 /* PBXTargetDependency */,
+			);
+			name = "Pods-WLAutoScrollingView_Example";
+			productName = "Pods-WLAutoScrollingView_Example";
+			productReference = 8011A836F98C85EDF0866CCCBF631C5D /* Pods_WLAutoScrollingView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73815184A4DEAFD523322522C6B1FB04 /* Pods-WLAutoScrollingView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D756DB3189C7B0766FB62C9DC2E9650 /* Build configuration list for PBXNativeTarget "Pods-WLAutoScrollingView_Tests" */;
+			buildPhases = (
+				84A92246181B7F98B8A578379FDC15A5 /* Sources */,
+				D4705281DCC89F5F37316DA2F9A1088C /* Frameworks */,
+				BD3EB764641E4AE3328B5805F13018B5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				632851FC4C1C96E1FFDD4D23F13873B1 /* PBXTargetDependency */,
+			);
+			name = "Pods-WLAutoScrollingView_Tests";
+			productName = "Pods-WLAutoScrollingView_Tests";
+			productReference = 7C570D8CF14F401BF1EB05FEB70FC78B /* Pods_WLAutoScrollingView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		752753526DF8A34B61883C4232E7840C /* WLAutoScrollingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8358074A6C674BDA9F5ED0B13CB8DD /* Build configuration list for PBXNativeTarget "WLAutoScrollingView" */;
+			buildPhases = (
+				AF9681B50E34F37904024CE48D071CD5 /* Sources */,
+				8A790B3866AE853FEB510839498D5586 /* Frameworks */,
+				A72601B813EDC9842068E9DFE9018B36 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLAutoScrollingView;
+			productName = WLAutoScrollingView;
+			productReference = 719338827D515C1FD27E32016901124F /* WLAutoScrollingView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1220E781A86B3E232794D91D0978F003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55968E66EC64469C2EEBC7DA784108AF /* Pods-WLAutoScrollingView_Example */,
+				73815184A4DEAFD523322522C6B1FB04 /* Pods-WLAutoScrollingView_Tests */,
+				752753526DF8A34B61883C4232E7840C /* WLAutoScrollingView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F662A957356ACB79E46144BB12A2ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06513C119919C1317A711DE020EF3842 /* Pods-WLAutoScrollingView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84A92246181B7F98B8A578379FDC15A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE9A861E221D582C2EC070A7FD274B7 /* Pods-WLAutoScrollingView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9681B50E34F37904024CE48D071CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C07CFE750DEEA35459ACF053C25B321 /* NSTimer+WLAutoScrollingViewSupport.m in Sources */,
+				890A0158F172F1B3DD24ADB2395366A3 /* WLAutoScrollingView-dummy.m in Sources */,
+				929836D05A896F1E6A92B53C9BB26FA8 /* WLAutoScrollingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		632851FC4C1C96E1FFDD4D23F13873B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WLAutoScrollingView_Example";
+			target = 55968E66EC64469C2EEBC7DA784108AF /* Pods-WLAutoScrollingView_Example */;
+			targetProxy = B5373DDC8F1C41926B8A778380236247 /* PBXContainerItemProxy */;
+		};
+		A3A406F416F2ACFD34A28445BCBAD7C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WLAutoScrollingView;
+			target = 752753526DF8A34B61883C4232E7840C /* WLAutoScrollingView */;
+			targetProxy = 2792740D72B13BCBABA9828FB0995BD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7DA3B784DBE64ECB1AF2DF6026A2D002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D9A4ADBF51E729108309361FF169D0 /* Pods-WLAutoScrollingView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WLAutoScrollingView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WLAutoScrollingView_Example/Pods-WLAutoScrollingView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9B7BA1D15DF8508B483DCA21A0E7FB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27BA14C5402CE2919A9E49E386AB1FC3 /* WLAutoScrollingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WLAutoScrollingView/WLAutoScrollingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WLAutoScrollingView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WLAutoScrollingView/WLAutoScrollingView.modulemap";
+				PRODUCT_MODULE_NAME = WLAutoScrollingView;
+				PRODUCT_NAME = WLAutoScrollingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3EBDAE097A192ED6C6FA449A3325A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD8C2AFF60AAFE0E6F92448AB4D80B00 /* Pods-WLAutoScrollingView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WLAutoScrollingView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WLAutoScrollingView_Example/Pods-WLAutoScrollingView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A71EF97AA80C57DEEA4527FEB56A7821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27BA14C5402CE2919A9E49E386AB1FC3 /* WLAutoScrollingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WLAutoScrollingView/WLAutoScrollingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WLAutoScrollingView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WLAutoScrollingView/WLAutoScrollingView.modulemap";
+				PRODUCT_MODULE_NAME = WLAutoScrollingView;
+				PRODUCT_NAME = WLAutoScrollingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7224732B2AC38D99A0E4AA066A42926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C20D057407DE882C6D87A75A137F072 /* Pods-WLAutoScrollingView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WLAutoScrollingView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WLAutoScrollingView_Tests/Pods-WLAutoScrollingView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FD03CC8886398C522E2ED44E74C11774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33262D8A34819A273F91F3934BA20656 /* Pods-WLAutoScrollingView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WLAutoScrollingView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WLAutoScrollingView_Tests/Pods-WLAutoScrollingView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C158EF5FBE85489300A590CC1EEEC60 /* Build configuration list for PBXNativeTarget "Pods-WLAutoScrollingView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DA3B784DBE64ECB1AF2DF6026A2D002 /* Debug */,
+				A3EBDAE097A192ED6C6FA449A3325A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D756DB3189C7B0766FB62C9DC2E9650 /* Build configuration list for PBXNativeTarget "Pods-WLAutoScrollingView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD03CC8886398C522E2ED44E74C11774 /* Debug */,
+				A7224732B2AC38D99A0E4AA066A42926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8358074A6C674BDA9F5ED0B13CB8DD /* Build configuration list for PBXNativeTarget "WLAutoScrollingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B7BA1D15DF8508B483DCA21A0E7FB74 /* Debug */,
+				A71EF97AA80C57DEEA4527FEB56A7821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

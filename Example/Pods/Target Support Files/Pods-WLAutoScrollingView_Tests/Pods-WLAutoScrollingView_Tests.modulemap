@@ -1,0 +1,6 @@
+framework module Pods_WLAutoScrollingView_Tests {
+  umbrella header "Pods-WLAutoScrollingView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

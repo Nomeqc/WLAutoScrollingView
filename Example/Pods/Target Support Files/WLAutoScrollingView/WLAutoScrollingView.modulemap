@@ -1,0 +1,6 @@
+framework module WLAutoScrollingView {
+  umbrella header "WLAutoScrollingView-umbrella.h"
+
+  export *
+  module * { export * }
+}
