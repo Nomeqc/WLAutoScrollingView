@@ -27,3 +27,4 @@ nomeqc@gmail.com, xie5405@163.com
 ## License
 
 WLAutoScrollingView is available under the MIT license. See the LICENSE file for more info.
+
