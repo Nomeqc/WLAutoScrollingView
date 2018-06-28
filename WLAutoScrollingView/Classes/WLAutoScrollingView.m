@@ -173,6 +173,9 @@
 // MARK: timer
 - (void)startRolling {
     [self stopRolling];
+    if ([self rowCount] == 0) {
+        return;
+    }
     [self updateRowsContent];
     [self resetCanvasViewsPosition];
     
