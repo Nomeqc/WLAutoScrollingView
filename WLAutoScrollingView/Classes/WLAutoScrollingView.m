@@ -32,6 +32,10 @@
 
 @implementation WLAutoScrollingView
 
+- (void)dealloc {
+    
+}
+
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -56,6 +60,9 @@
     [self addSubview:nextCanvasView];
     _nowCanvasView = nowCanvasView;
     _nextCanvasView = nextCanvasView;
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appWillResignActive:) name:UIApplicationWillResignActiveNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(appWillEnterForeground:) name:UIApplicationWillEnterForegroundNotification object:nil];
     
     return self;
 }
@@ -126,7 +133,7 @@
     self.nowCanvasView.frame = self.bounds;
     self.nextCanvasView.frame = ({
         CGRect frame = self.bounds;
-        frame.origin.y = CGRectGetWidth(self.bounds);
+        frame.origin.y = CGRectGetHeight(self.bounds);
         frame;
     });
     
@@ -141,7 +148,6 @@
 
 
 - (void)willMoveToWindow:(UIWindow *)newWindow {
-    NSLog(@"willMoveToWindow:%@",newWindow);
     if (newWindow) {
         [self startRolling];
     } else {
@@ -149,22 +155,12 @@
     }
 }
 
-- (void)willMoveToSuperview:(UIView *)newSuperview {
-    NSLog(@"willMoveToSuperview:%@",newSuperview);
-    if (newSuperview) {
-        [self startRolling];
-    } else {
-        [self stopRolling];
-    }
+
+- (void)appWillResignActive:(NSNotification *)notification; {
+    [self stopRolling];
 }
 
-- (void)didEnterBackground:(NSNotification *)arg1; {
-    if (_rolling) {
-        [self stopRolling];
-    }
-}
-
-- (void)didBecomeActive:(NSNotification *)arg1 {
+- (void)appWillEnterForeground:(NSNotification *)notification {
     if (!_rolling) {
         [self startRolling];
     }

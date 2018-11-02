@@ -252,6 +252,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "nomeqc@gmail.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = PMP72N64FV;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -491,6 +494,7 @@
 			baseConfigurationReference = 1BAE2A0824CCE412E5B003EC /* Pods-WLAutoScrollingView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PMP72N64FV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WLAutoScrollingView/WLAutoScrollingView-Prefix.pch";
 				INFOPLIST_FILE = "WLAutoScrollingView/WLAutoScrollingView-Info.plist";
@@ -506,6 +510,7 @@
 			baseConfigurationReference = EC6087DF90AFB82E28689471 /* Pods-WLAutoScrollingView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PMP72N64FV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WLAutoScrollingView/WLAutoScrollingView-Prefix.pch";
 				INFOPLIST_FILE = "WLAutoScrollingView/WLAutoScrollingView-Info.plist";
